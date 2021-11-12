@@ -1,7 +1,7 @@
 import boto3
 
 class S3:
-    S3 = boto3.client('s3')
+    S3 = boto3.resource('s3')
     _current_bucket = ''
     bucket = None
 
